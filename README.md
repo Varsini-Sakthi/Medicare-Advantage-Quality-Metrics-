@@ -6,7 +6,7 @@ Quarterly HEDIS measure tracking and CMS Star Ratings simulation for a Medicare 
 
 ---
 
-## 📊 Live Dashboard
+## Live Dashboard
 
 Open [`ma_quality_dashboard.html`](./ma_quality_dashboard.html) directly in a browser, no install required.
 
