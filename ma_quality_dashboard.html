@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medicare Advantage Quality Metrics Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --navy:#0f2a43;
+    --navy-2:#16395c;
+    --teal:#0d9488;
+    --teal-light:#ccfbf1;
+    --amber:#d97706;
+    --red:#b91c1c;
+    --bg:#f4f6f8;
+    --card:#ffffff;
+    --line:#e2e8f0;
+    --text:#1e2937;
+    --muted:#64748b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  header{
+    background:linear-gradient(120deg,var(--navy) 0%,var(--navy-2) 100%);
+    color:#fff; padding:28px 36px;
+  }
+  header .eyebrow{
+    font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:#8fb4d1; font-weight:600;
+  }
+  header h1{ margin:6px 0 4px; font-size:24px; font-weight:700; letter-spacing:-.01em;}
+  header .sub{ font-size:13.5px; color:#c9dced; }
+  .wrap{ max-width:1180px; margin:0 auto; padding:0 24px; }
+  .kpis{
+    display:grid; grid-template-columns:repeat(4,1fr); gap:16px;
+    margin:-28px auto 24px; max-width:1180px; padding:0 24px;
+  }
+  .kpi{
+    background:var(--card); border-radius:12px; padding:18px 20px;
+    box-shadow:0 6px 18px rgba(15,42,67,.10); border:1px solid var(--line);
+  }
+  .kpi .label{ font-size:11.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); font-weight:700;}
+  .kpi .value{ font-size:28px; font-weight:800; color:var(--navy); margin-top:6px; display:flex; align-items:baseline; gap:8px;}
+  .kpi .value .stars{ font-size:15px; color:#f59e0b; letter-spacing:1px;}
+  .kpi .delta{ font-size:12.5px; margin-top:4px; font-weight:600;}
+  .delta.up{ color:#0d9488; }
+  .delta.down{ color:var(--red); }
+  main{ max-width:1180px; margin:0 auto; padding:0 24px 48px; }
+  .grid2{ display:grid; grid-template-columns: 1.55fr 1fr; gap:18px; margin-bottom:18px;}
+  .card{
+    background:var(--card); border-radius:12px; padding:20px 22px;
+    box-shadow:0 2px 10px rgba(15,42,67,.06); border:1px solid var(--line);
+  }
+  .card h2{ font-size:14px; margin:0 0 2px; color:var(--navy); font-weight:700;}
+  .card .card-sub{ font-size:12px; color:var(--muted); margin-bottom:14px;}
+  .domain-row{ display:flex; align-items:center; justify-content:space-between; padding:9px 0; border-bottom:1px solid var(--line); font-size:13px;}
+  .domain-row:last-child{ border-bottom:none; }
+  .domain-name{ color:var(--text); font-weight:600; }
+  .domain-stars{ display:flex; align-items:center; gap:10px; }
+  .domain-stars .bar{ width:90px; height:6px; background:var(--line); border-radius:4px; overflow:hidden;}
+  .domain-stars .fill{ height:100%; background:var(--teal); border-radius:4px;}
+  .domain-stars .val{ font-weight:700; color:var(--navy); font-size:12.5px; width:30px; text-align:right;}
+  table{ width:100%; border-collapse:collapse; font-size:12.8px; }
+  th{
+    text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em;
+    color:var(--muted); font-weight:700; padding:8px 10px; border-bottom:2px solid var(--line);
+    position:sticky; top:0; background:var(--card);
+  }
+  td{ padding:8px 10px; border-bottom:1px solid var(--line); }
+  tr:hover td{ background:#f8fafc; }
+  .badge{ display:inline-block; font-size:10.5px; font-weight:700; padding:2px 7px; border-radius:20px; }
+  .badge.w3{ background:#fef3c7; color:#92400e; }
+  .badge.w1{ background:#eef2f7; color:#64748b; }
+  .stars-mini{ color:#f59e0b; font-size:12px; letter-spacing:1px;}
+  .rate-up{ color:#0d9488; font-weight:700;}
+  .rate-down{ color:var(--red); font-weight:700;}
+  .filter-row{ display:flex; gap:8px; margin-bottom:12px; flex-wrap:wrap; }
+  .filter-btn{
+    border:1px solid var(--line); background:#fff; color:var(--muted); font-size:11.5px; font-weight:600;
+    padding:6px 12px; border-radius:20px; cursor:pointer;
+  }
+  .filter-btn.active{ background:var(--navy); border-color:var(--navy); color:#fff; }
+  .table-wrap{ max-height:420px; overflow-y:auto; border-radius:8px; }
+  footer{ max-width:1180px; margin:0 auto; padding:0 24px 40px; font-size:11.5px; color:var(--muted); line-height:1.6; }
+  footer strong{ color:var(--text); }
+  canvas{ max-height:280px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Quality Improvement &middot; Star Ratings Program</div>
+    <h1>Medicare Advantage Quality Metrics Dashboard</h1>
+    <div class="sub" id="plan-line"></div>
+  </div>
+</header>
+
+<div class="kpis" id="kpi-row"></div>
+
+<main>
+  <div class="grid2">
+    <div class="card">
+      <h2>Overall Weighted Star Rating &mdash; Trend</h2>
+      <div class="card-sub">Rolling quarterly weighted average across 25 Part C measures, MY2021&ndash;MY2023</div>
+      <canvas id="trendChart"></canvas>
+    </div>
+    <div class="card">
+      <h2>Star Rating by Domain</h2>
+      <div class="card-sub" id="domain-sub"></div>
+      <div id="domain-list"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Measure-Level Detail &mdash; Latest Quarter</h2>
+    <div class="card-sub">Interim rolling HEDIS/CAHPS rates and derived star value per measure. 3&times; weighted measures (Triple-Weighted outcome measures) carry more influence on the overall rating.</div>
+    <div class="filter-row" id="filter-row"></div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Measure</th><th>Domain</th><th>Weight</th><th>Rate</th><th>Δ vs MY2021 Q1</th><th>Star</th>
+          </tr>
+        </thead>
+        <tbody id="measure-body"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <strong>Methodology &amp; data notes:</strong> This dashboard uses fully synthetic data generated to illustrate CMS Medicare Advantage Part C Star Ratings methodology &mdash; domain structure, measure weighting (1&times; standard, 3&times; for select outcome measures), and star cut-point banding. Quarterly figures represent simulated rolling 12-month interim rates, which plans commonly track between annual HEDIS submission cycles as leading indicators. Cut points are simplified/static for illustration and do not represent CMS's actual annually re-clustered thresholds. No real plan, member, or CMS data is used.
+</footer>
+
+<script id="dashboard-data" type="application/json">{"quarters": ["2021Q1", "2021Q2", "2021Q3", "2021Q4", "2022Q1", "2022Q2", "2022Q3", "2022Q4", "2023Q1", "2023Q2", "2023Q3", "2023Q4"], "overall": [3.52, 3.69, 3.97, 3.93, 4.0, 3.97, 4.03, 4.0, 4.03, 4.03, 3.97, 4.21], "domains": {"Complaints & Access Problems": [2.5, 3.0, 4.0, 3.5, 4.0, 3.5, 4.5, 4.0, 4.5, 4.5, 3.5, 3.5], "Health Plan Customer Service": [3.67, 3.67, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], "Managing Chronic Conditions": [3.5, 3.64, 4.0, 3.93, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.36], "Member Experience": [3.67, 4.0, 3.83, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.33], "Staying Healthy": [3.75, 3.75, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]}, "measures_latest": [{"measure": "Complaints about the Health Plan", "domain": "Complaints & Access Problems", "weight": 1, "rate": 0.6, "measure_star": 3, "rate_first": 1.01, "delta": -0.4}, {"measure": "Members Choosing to Leave the Plan", "domain": "Complaints & Access Problems", "weight": 1, "rate": 8.65, "measure_star": 4, "rate_first": 14.27, "delta": -5.6}, {"measure": "Call Center - TTY/Interpreter Availability", "domain": "Health Plan Customer Service", "weight": 1, "rate": 93.33, "measure_star": 4, "rate_first": 86.22, "delta": 7.1}, {"measure": "Plan Makes Timely Decisions about Appeals", "domain": "Health Plan Customer Service", "weight": 1, "rate": 94.36, "measure_star": 4, "rate_first": 84.26, "delta": 10.1}, {"measure": "Reviewing Appeals Decisions", "domain": "Health Plan Customer Service", "weight": 1, "rate": 89.46, "measure_star": 4, "rate_first": 80.95, "delta": 8.5}, {"measure": "Controlling Blood Pressure", "domain": "Managing Chronic Conditions", "weight": 3, "rate": 78.2, "measure_star": 4, "rate_first": 62.95, "delta": 15.2}, {"measure": "Diabetes Care - Blood Sugar Controlled (<9%)", "domain": "Managing Chronic Conditions", "weight": 3, "rate": 83.37, "measure_star": 5, "rate_first": 67.44, "delta": 15.9}, {"measure": "Diabetes Care - Eye Exam", "domain": "Managing Chronic Conditions", "weight": 1, "rate": 73.09, "measure_star": 4, "rate_first": 61.77, "delta": 11.3}, {"measure": "Diabetes Care - Kidney Disease Monitoring", "domain": "Managing Chronic Conditions", "weight": 1, "rate": 93.62, "measure_star": 4, "rate_first": 87.89, "delta": 5.7}, {"measure": "Osteoporosis Mgmt in Women who had a Fracture", "domain": "Managing Chronic Conditions", "weight": 1, "rate": 55.86, "measure_star": 4, "rate_first": 44.5, "delta": 11.4}, {"measure": "Plan All-Cause Readmissions", "domain": "Managing Chronic Conditions", "weight": 1, "rate": 6.95, "measure_star": 5, "rate_first": 12.98, "delta": -6.0}, {"measure": "Reducing the Risk of Falling", "domain": "Managing Chronic Conditions", "weight": 1, "rate": 63.54, "measure_star": 4, "rate_first": 47.4, "delta": 16.1}, {"measure": "Rheumatoid Arthritis Management", "domain": "Managing Chronic Conditions", "weight": 1, "rate": 87.3, "measure_star": 4, "rate_first": 78.23, "delta": 9.1}, {"measure": "Statin Therapy - Cardiovascular Disease", "domain": "Managing Chronic Conditions", "weight": 1, "rate": 81.82, "measure_star": 4, "rate_first": 70.73, "delta": 11.1}, {"measure": "Statin Use in Persons with Diabetes (SUPD)", "domain": "Managing Chronic Conditions", "weight": 1, "rate": 82.6, "measure_star": 5, "rate_first": 68.75, "delta": 13.8}, {"measure": "Care Coordination", "domain": "Member Experience", "weight": 1, "rate": 85.93, "measure_star": 4, "rate_first": 77.72, "delta": 8.2}, {"measure": "Customer Service", "domain": "Member Experience", "weight": 1, "rate": 89.65, "measure_star": 4, "rate_first": 81.58, "delta": 8.1}, {"measure": "Getting Appointments & Care Quickly", "domain": "Member Experience", "weight": 1, "rate": 83.54, "measure_star": 4, "rate_first": 74.2, "delta": 9.3}, {"measure": "Getting Needed Care", "domain": "Member Experience", "weight": 1, "rate": 89.0, "measure_star": 5, "rate_first": 79.39, "delta": 9.6}, {"measure": "Rating of Health Care Quality", "domain": "Member Experience", "weight": 1, "rate": 87.7, "measure_star": 4, "rate_first": 81.25, "delta": 6.5}, {"measure": "Rating of Health Plan", "domain": "Member Experience", "weight": 1, "rate": 88.95, "measure_star": 5, "rate_first": 77.33, "delta": 11.6}, {"measure": "Annual Flu Vaccine", "domain": "Staying Healthy", "weight": 1, "rate": 68.71, "measure_star": 4, "rate_first": 55.09, "delta": 13.6}, {"measure": "Breast Cancer Screening", "domain": "Staying Healthy", "weight": 1, "rate": 79.06, "measure_star": 4, "rate_first": 62.41, "delta": 16.7}, {"measure": "Colorectal Cancer Screening", "domain": "Staying Healthy", "weight": 1, "rate": 73.85, "measure_star": 4, "rate_first": 57.52, "delta": 16.3}, {"measure": "Monitoring Physical Activity", "domain": "Staying Healthy", "weight": 1, "rate": 68.69, "measure_star": 4, "rate_first": 51.2, "delta": 17.5}], "plan_name": "Horizon Value MA Plan (H1234-001)", "latest_quarter": "2023Q4", "first_quarter": "2021Q1", "first_overall": 3.52, "last_overall": 4.21}</script>
+<script>
+const data = JSON.parse(document.getElementById('dashboard-data').textContent);
+
+// ---- Header ----
+document.getElementById('plan-line').textContent =
+  data.plan_name + " · " + data.first_quarter + " – " + data.latest_quarter;
+
+// ---- KPI row ----
+function starGlyphs(v){
+  const full = Math.round(v);
+  return "★".repeat(full) + "☆".repeat(5-full);
+}
+const delta = (data.last_overall - data.first_overall).toFixed(2);
+const fourPlus = data.measures_latest.filter(m => m.measure_star >= 4).length;
+const belowThree = data.measures_latest.filter(m => m.measure_star < 3).length;
+
+const kpis = [
+  {label:"Current Overall Rating", value: data.last_overall.toFixed(2) + "★", stars: starGlyphs(data.last_overall), delta: `+${delta} vs ${data.first_quarter}`, up:true},
+  {label:"Baseline Rating (MY2021 Q1)", value: data.first_overall.toFixed(2) + "★", stars: starGlyphs(data.first_overall), delta: `${data.quarters.length} quarters tracked`, up:null},
+  {label:"Measures at 4★ or higher", value: fourPlus + " / " + data.measures_latest.length, stars:"", delta: Math.round(100*fourPlus/data.measures_latest.length) + "% of scored measures", up:true},
+  {label:"Measures below 3★", value: belowThree + " / " + data.measures_latest.length, stars:"", delta: belowThree>0 ? "priority for next QI cycle" : "no measures below threshold", up:false},
+];
+document.getElementById('kpi-row').innerHTML = kpis.map(k => `
+  <div class="kpi">
+    <div class="label">${k.label}</div>
+    <div class="value">${k.value} <span class="stars">${k.stars}</span></div>
+    <div class="delta ${k.up===true?'up':(k.up===false?'down':'')}">${k.delta}</div>
+  </div>
+`).join('');
+
+// ---- Trend chart ----
+new Chart(document.getElementById('trendChart'), {
+  type:'line',
+  data:{
+    labels: data.quarters,
+    datasets:[{
+      label:'Overall Weighted Star Rating',
+      data: data.overall,
+      borderColor:'#0d9488',
+      backgroundColor:'rgba(13,148,136,0.12)',
+      borderWidth:2.5,
+      pointRadius:3,
+      pointBackgroundColor:'#0d9488',
+      tension:.3,
+      fill:true,
+    }]
+  },
+  options:{
+    plugins:{ legend:{display:false} },
+    scales:{
+      y:{ min:1, max:5, ticks:{ stepSize:1 }, grid:{ color:'#e2e8f0' } },
+      x:{ grid:{ display:false } }
+    }
+  }
+});
+
+// ---- Domain list ----
+const domainNames = Object.keys(data.domains);
+document.getElementById('domain-sub').textContent = "Baseline (MY2021 Q1) → Current (" + data.latest_quarter + ")";
+document.getElementById('domain-list').innerHTML = domainNames.map(d => {
+  const series = data.domains[d];
+  const first = series[0], last = series[series.length-1];
+  const pct = Math.min(100, (last/5)*100);
+  return `
+    <div class="domain-row">
+      <div class="domain-name">${d}</div>
+      <div class="domain-stars">
+        <span style="color:var(--muted); font-size:12px;">${first.toFixed(1)} → </span>
+        <div class="bar"><div class="fill" style="width:${pct}%"></div></div>
+        <div class="val">${last.toFixed(1)}★</div>
+      </div>
+    </div>`;
+}).join('');
+
+// ---- Measure table ----
+let activeDomain = 'All';
+function renderTable(){
+  const rows = data.measures_latest.filter(m => activeDomain==='All' || m.domain===activeDomain);
+  document.getElementById('measure-body').innerHTML = rows.map(m => {
+    const deltaClass = m.delta >= 0 ? 'rate-up' : 'rate-down';
+    const deltaSign = m.delta >= 0 ? '+' : '';
+    const badge = m.weight === 3 ? '<span class="badge w3">3× weight</span>' : '<span class="badge w1">1× weight</span>';
+    return `<tr>
+      <td>${m.measure}</td>
+      <td>${m.domain}</td>
+      <td>${badge}</td>
+      <td>${m.rate.toFixed(1)}%</td>
+      <td class="${deltaClass}">${deltaSign}${m.delta.toFixed(1)} pts</td>
+      <td class="stars-mini">${starGlyphs(m.measure_star)}</td>
+    </tr>`;
+  }).join('');
+}
+document.getElementById('filter-row').innerHTML = ['All', ...domainNames].map(d =>
+  `<button class="filter-btn ${d==='All'?'active':''}" data-d="${d}">${d}</button>`
+).join('');
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    activeDomain = btn.dataset.d;
+    renderTable();
+  });
+});
+renderTable();
+</script>
+</body>
+</html>

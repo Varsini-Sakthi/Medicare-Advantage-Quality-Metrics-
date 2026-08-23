@@ -1,0 +1,73 @@
+quarter,level,name,weighted_star_rating,measure_count
+2021Q1,domain,Complaints & Access Problems,2.5,2
+2021Q1,domain,Health Plan Customer Service,3.67,3
+2021Q1,domain,Managing Chronic Conditions,3.5,10
+2021Q1,domain,Member Experience,3.67,6
+2021Q1,domain,Staying Healthy,3.75,4
+2021Q1,overall,Overall Plan Rating,3.52,25
+2021Q2,domain,Complaints & Access Problems,3.0,2
+2021Q2,domain,Health Plan Customer Service,3.67,3
+2021Q2,domain,Managing Chronic Conditions,3.64,10
+2021Q2,domain,Member Experience,4.0,6
+2021Q2,domain,Staying Healthy,3.75,4
+2021Q2,overall,Overall Plan Rating,3.69,25
+2021Q3,domain,Complaints & Access Problems,4.0,2
+2021Q3,domain,Health Plan Customer Service,4.0,3
+2021Q3,domain,Managing Chronic Conditions,4.0,10
+2021Q3,domain,Member Experience,3.83,6
+2021Q3,domain,Staying Healthy,4.0,4
+2021Q3,overall,Overall Plan Rating,3.97,25
+2021Q4,domain,Complaints & Access Problems,3.5,2
+2021Q4,domain,Health Plan Customer Service,4.0,3
+2021Q4,domain,Managing Chronic Conditions,3.93,10
+2021Q4,domain,Member Experience,4.0,6
+2021Q4,domain,Staying Healthy,4.0,4
+2021Q4,overall,Overall Plan Rating,3.93,25
+2022Q1,domain,Complaints & Access Problems,4.0,2
+2022Q1,domain,Health Plan Customer Service,4.0,3
+2022Q1,domain,Managing Chronic Conditions,4.0,10
+2022Q1,domain,Member Experience,4.0,6
+2022Q1,domain,Staying Healthy,4.0,4
+2022Q1,overall,Overall Plan Rating,4.0,25
+2022Q2,domain,Complaints & Access Problems,3.5,2
+2022Q2,domain,Health Plan Customer Service,4.0,3
+2022Q2,domain,Managing Chronic Conditions,4.0,10
+2022Q2,domain,Member Experience,4.0,6
+2022Q2,domain,Staying Healthy,4.0,4
+2022Q2,overall,Overall Plan Rating,3.97,25
+2022Q3,domain,Complaints & Access Problems,4.5,2
+2022Q3,domain,Health Plan Customer Service,4.0,3
+2022Q3,domain,Managing Chronic Conditions,4.0,10
+2022Q3,domain,Member Experience,4.0,6
+2022Q3,domain,Staying Healthy,4.0,4
+2022Q3,overall,Overall Plan Rating,4.03,25
+2022Q4,domain,Complaints & Access Problems,4.0,2
+2022Q4,domain,Health Plan Customer Service,4.0,3
+2022Q4,domain,Managing Chronic Conditions,4.0,10
+2022Q4,domain,Member Experience,4.0,6
+2022Q4,domain,Staying Healthy,4.0,4
+2022Q4,overall,Overall Plan Rating,4.0,25
+2023Q1,domain,Complaints & Access Problems,4.5,2
+2023Q1,domain,Health Plan Customer Service,4.0,3
+2023Q1,domain,Managing Chronic Conditions,4.0,10
+2023Q1,domain,Member Experience,4.0,6
+2023Q1,domain,Staying Healthy,4.0,4
+2023Q1,overall,Overall Plan Rating,4.03,25
+2023Q2,domain,Complaints & Access Problems,4.5,2
+2023Q2,domain,Health Plan Customer Service,4.0,3
+2023Q2,domain,Managing Chronic Conditions,4.0,10
+2023Q2,domain,Member Experience,4.0,6
+2023Q2,domain,Staying Healthy,4.0,4
+2023Q2,overall,Overall Plan Rating,4.03,25
+2023Q3,domain,Complaints & Access Problems,3.5,2
+2023Q3,domain,Health Plan Customer Service,4.0,3
+2023Q3,domain,Managing Chronic Conditions,4.0,10
+2023Q3,domain,Member Experience,4.0,6
+2023Q3,domain,Staying Healthy,4.0,4
+2023Q3,overall,Overall Plan Rating,3.97,25
+2023Q4,domain,Complaints & Access Problems,3.5,2
+2023Q4,domain,Health Plan Customer Service,4.0,3
+2023Q4,domain,Managing Chronic Conditions,4.36,10
+2023Q4,domain,Member Experience,4.33,6
+2023Q4,domain,Staying Healthy,4.0,4
+2023Q4,overall,Overall Plan Rating,4.21,25

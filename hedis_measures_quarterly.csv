@@ -1,0 +1,301 @@
+plan_id,plan_name,quarter,measure,domain,weight,eligible_denominator,numerator,rate,measure_star
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Breast Cancer Screening,Staying Healthy,1,5415,3380,62.41,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Breast Cancer Screening,Staying Healthy,1,5311,3272,61.6,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Breast Cancer Screening,Staying Healthy,1,5102,3330,65.27,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Breast Cancer Screening,Staying Healthy,1,5295,3541,66.87,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Breast Cancer Screening,Staying Healthy,1,5087,3273,64.35,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Breast Cancer Screening,Staying Healthy,1,5376,3585,66.69,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Breast Cancer Screening,Staying Healthy,1,5230,3668,70.14,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Breast Cancer Screening,Staying Healthy,1,5208,3702,71.08,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Breast Cancer Screening,Staying Healthy,1,5130,3749,73.07,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Breast Cancer Screening,Staying Healthy,1,5430,3993,73.54,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Breast Cancer Screening,Staying Healthy,1,5213,4042,77.53,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Breast Cancer Screening,Staying Healthy,1,5170,4087,79.06,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Colorectal Cancer Screening,Staying Healthy,1,4516,2598,57.52,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Colorectal Cancer Screening,Staying Healthy,1,4518,2699,59.74,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Colorectal Cancer Screening,Staying Healthy,1,4723,2869,60.75,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Colorectal Cancer Screening,Staying Healthy,1,4736,2944,62.15,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Colorectal Cancer Screening,Staying Healthy,1,4708,2994,63.58,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Colorectal Cancer Screening,Staying Healthy,1,4540,3059,67.37,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Colorectal Cancer Screening,Staying Healthy,1,4665,3052,65.42,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Colorectal Cancer Screening,Staying Healthy,1,4649,3106,66.82,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Colorectal Cancer Screening,Staying Healthy,1,4663,3170,67.99,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Colorectal Cancer Screening,Staying Healthy,1,4754,3401,71.54,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Colorectal Cancer Screening,Staying Healthy,1,4664,3446,73.87,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Colorectal Cancer Screening,Staying Healthy,1,4727,3491,73.85,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Annual Flu Vaccine,Staying Healthy,1,2158,1189,55.09,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Annual Flu Vaccine,Staying Healthy,1,2185,1233,56.41,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Annual Flu Vaccine,Staying Healthy,1,2193,1274,58.11,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Annual Flu Vaccine,Staying Healthy,1,2199,1245,56.61,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Annual Flu Vaccine,Staying Healthy,1,2125,1266,59.56,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Annual Flu Vaccine,Staying Healthy,1,2118,1288,60.82,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Annual Flu Vaccine,Staying Healthy,1,2203,1368,62.1,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Annual Flu Vaccine,Staying Healthy,1,2135,1369,64.14,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Annual Flu Vaccine,Staying Healthy,1,2065,1407,68.13,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Annual Flu Vaccine,Staying Healthy,1,2074,1380,66.53,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Annual Flu Vaccine,Staying Healthy,1,2088,1475,70.66,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Annual Flu Vaccine,Staying Healthy,1,2180,1498,68.71,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Monitoring Physical Activity,Staying Healthy,1,5092,2607,51.2,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Monitoring Physical Activity,Staying Healthy,1,5166,2741,53.06,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Monitoring Physical Activity,Staying Healthy,1,5239,2766,52.79,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Monitoring Physical Activity,Staying Healthy,1,5234,2881,55.04,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Monitoring Physical Activity,Staying Healthy,1,5268,3013,57.2,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Monitoring Physical Activity,Staying Healthy,1,5149,2957,57.43,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Monitoring Physical Activity,Staying Healthy,1,5099,3065,60.12,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Monitoring Physical Activity,Staying Healthy,1,5152,3100,60.17,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Monitoring Physical Activity,Staying Healthy,1,4903,3053,62.27,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Monitoring Physical Activity,Staying Healthy,1,4940,3159,63.95,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Monitoring Physical Activity,Staying Healthy,1,4960,3201,64.54,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Monitoring Physical Activity,Staying Healthy,1,5010,3441,68.69,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,5010,2229,44.5,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,4886,2138,43.77,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,4759,2165,45.5,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,4985,2430,48.75,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,4895,2346,47.93,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,5009,2533,50.57,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,4978,2480,49.82,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,5214,2715,52.07,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,4939,2594,52.53,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,4822,2637,54.69,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,5001,2880,57.59,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,5007,2797,55.86,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3050,1884,61.77,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3175,1970,62.04,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3225,2018,62.58,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3334,2176,65.27,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3421,2160,63.14,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3185,2077,65.23,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3052,2022,66.27,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,2944,2014,68.41,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3171,2176,68.61,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3069,2232,72.73,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3106,2272,73.15,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Diabetes Care - Eye Exam,Managing Chronic Conditions,1,3088,2257,73.09,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,5913,5197,87.89,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,5957,5313,89.19,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,6478,5763,88.96,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,5939,5299,89.23,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,6243,5562,89.09,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,5925,5282,89.15,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,6260,5673,90.62,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,6160,5638,91.53,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,6061,5667,93.5,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,6082,5648,92.86,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,5970,5619,94.12,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,6171,5777,93.62,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2848,1921,67.44,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2941,1981,67.37,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2827,1933,68.39,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2708,1932,71.36,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2696,2004,74.33,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2951,2179,73.85,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2957,2213,74.83,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2796,2144,76.68,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2779,2204,79.33,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2935,2330,79.39,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2718,2175,80.04,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,2736,2281,83.37,5
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Controlling Blood Pressure,Managing Chronic Conditions,3,3597,2264,62.95,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Controlling Blood Pressure,Managing Chronic Conditions,3,3733,2335,62.56,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Controlling Blood Pressure,Managing Chronic Conditions,3,3489,2251,64.53,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Controlling Blood Pressure,Managing Chronic Conditions,3,3637,2393,65.8,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Controlling Blood Pressure,Managing Chronic Conditions,3,3581,2440,68.12,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Controlling Blood Pressure,Managing Chronic Conditions,3,3598,2567,71.35,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Controlling Blood Pressure,Managing Chronic Conditions,3,3743,2661,71.1,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Controlling Blood Pressure,Managing Chronic Conditions,3,3692,2719,73.66,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Controlling Blood Pressure,Managing Chronic Conditions,3,3779,2700,71.45,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Controlling Blood Pressure,Managing Chronic Conditions,3,3617,2757,76.22,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Controlling Blood Pressure,Managing Chronic Conditions,3,3558,2736,76.88,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Controlling Blood Pressure,Managing Chronic Conditions,3,3609,2822,78.2,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2775,2171,78.23,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2620,2063,78.74,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2626,2055,78.25,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2506,2007,80.1,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2665,2159,81.03,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2593,2178,84.0,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2636,2221,84.25,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2608,2153,82.55,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2671,2243,83.97,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2537,2125,83.77,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2561,2190,85.51,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Rheumatoid Arthritis Management,Managing Chronic Conditions,1,2850,2488,87.3,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Reducing the Risk of Falling,Managing Chronic Conditions,1,2475,1173,47.4,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Reducing the Risk of Falling,Managing Chronic Conditions,1,2382,1156,48.53,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Reducing the Risk of Falling,Managing Chronic Conditions,1,2467,1314,53.25,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Reducing the Risk of Falling,Managing Chronic Conditions,1,2465,1374,55.74,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Reducing the Risk of Falling,Managing Chronic Conditions,1,2502,1299,51.92,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Reducing the Risk of Falling,Managing Chronic Conditions,1,2443,1324,54.2,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Reducing the Risk of Falling,Managing Chronic Conditions,1,2520,1421,56.4,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Reducing the Risk of Falling,Managing Chronic Conditions,1,2560,1522,59.47,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Reducing the Risk of Falling,Managing Chronic Conditions,1,2496,1435,57.48,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Reducing the Risk of Falling,Managing Chronic Conditions,1,2511,1502,59.81,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Reducing the Risk of Falling,Managing Chronic Conditions,1,2488,1555,62.51,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Reducing the Risk of Falling,Managing Chronic Conditions,1,2485,1579,63.54,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3136,407,12.98,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3093,414,13.39,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Plan All-Cause Readmissions,Managing Chronic Conditions,1,2950,374,12.68,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3008,416,13.81,3
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3076,399,12.97,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3056,356,11.64,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3025,312,10.31,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3042,291,9.55,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3028,323,10.68,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3065,291,9.48,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Plan All-Cause Readmissions,Managing Chronic Conditions,1,3186,290,9.09,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Plan All-Cause Readmissions,Managing Chronic Conditions,1,2816,196,6.95,5
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2945,2083,70.73,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2884,2075,71.96,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2982,2177,73.02,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2935,2151,73.28,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2872,2090,72.78,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2983,2273,76.21,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2872,2266,78.91,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2905,2220,76.42,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2809,2255,80.29,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2840,2277,80.16,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2775,2267,81.69,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,2919,2388,81.82,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3165,2176,68.75,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3040,2174,71.53,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3011,2148,71.35,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3109,2292,73.71,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,2992,2221,74.23,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3043,2324,76.37,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3135,2391,76.25,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3213,2406,74.87,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3162,2452,77.56,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,2892,2241,77.49,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3134,2486,79.31,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,3112,2571,82.6,5
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Getting Needed Care,Member Experience,1,5083,4035,79.39,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Getting Needed Care,Member Experience,1,5088,4126,81.09,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Getting Needed Care,Member Experience,1,4917,3851,78.33,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Getting Needed Care,Member Experience,1,5025,4043,80.46,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Getting Needed Care,Member Experience,1,5024,4138,82.37,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Getting Needed Care,Member Experience,1,5106,4143,81.15,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Getting Needed Care,Member Experience,1,5199,4412,84.87,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Getting Needed Care,Member Experience,1,4887,4139,84.7,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Getting Needed Care,Member Experience,1,5029,4327,86.04,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Getting Needed Care,Member Experience,1,5272,4513,85.61,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Getting Needed Care,Member Experience,1,4935,4334,87.83,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Getting Needed Care,Member Experience,1,4923,4382,89.0,5
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Getting Appointments & Care Quickly,Member Experience,1,5770,4281,74.2,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Getting Appointments & Care Quickly,Member Experience,1,5977,4511,75.48,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Getting Appointments & Care Quickly,Member Experience,1,5475,4129,75.42,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Getting Appointments & Care Quickly,Member Experience,1,5536,4294,77.57,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Getting Appointments & Care Quickly,Member Experience,1,5475,4269,77.98,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Getting Appointments & Care Quickly,Member Experience,1,5614,4428,78.88,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Getting Appointments & Care Quickly,Member Experience,1,5827,4634,79.53,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Getting Appointments & Care Quickly,Member Experience,1,5842,4806,82.27,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Getting Appointments & Care Quickly,Member Experience,1,5799,4681,80.73,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Getting Appointments & Care Quickly,Member Experience,1,5508,4403,79.94,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Getting Appointments & Care Quickly,Member Experience,1,5353,4527,84.57,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Getting Appointments & Care Quickly,Member Experience,1,5761,4813,83.54,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Customer Service,Member Experience,1,3046,2485,81.58,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Customer Service,Member Experience,1,3060,2537,82.91,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Customer Service,Member Experience,1,3147,2635,83.74,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Customer Service,Member Experience,1,2887,2423,83.92,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Customer Service,Member Experience,1,2951,2513,85.17,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Customer Service,Member Experience,1,2934,2507,85.43,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Customer Service,Member Experience,1,2856,2469,86.45,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Customer Service,Member Experience,1,3008,2591,86.14,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Customer Service,Member Experience,1,3140,2744,87.39,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Customer Service,Member Experience,1,3044,2695,88.52,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Customer Service,Member Experience,1,3089,2777,89.89,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Customer Service,Member Experience,1,3171,2843,89.65,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Rating of Health Care Quality,Member Experience,1,4742,3853,81.25,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Rating of Health Care Quality,Member Experience,1,4540,3655,80.51,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Rating of Health Care Quality,Member Experience,1,4753,3923,82.54,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Rating of Health Care Quality,Member Experience,1,4668,3833,82.11,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Rating of Health Care Quality,Member Experience,1,4429,3633,82.02,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Rating of Health Care Quality,Member Experience,1,4817,4002,83.08,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Rating of Health Care Quality,Member Experience,1,4601,3823,83.09,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Rating of Health Care Quality,Member Experience,1,4611,3897,84.52,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Rating of Health Care Quality,Member Experience,1,4536,3897,85.9,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Rating of Health Care Quality,Member Experience,1,4595,4039,87.9,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Rating of Health Care Quality,Member Experience,1,4747,4257,89.68,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Rating of Health Care Quality,Member Experience,1,4660,4087,87.7,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Rating of Health Plan,Member Experience,1,2373,1835,77.33,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Rating of Health Plan,Member Experience,1,2380,1856,78.0,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Rating of Health Plan,Member Experience,1,2445,1949,79.73,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Rating of Health Plan,Member Experience,1,2308,1821,78.9,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Rating of Health Plan,Member Experience,1,2392,1881,78.65,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Rating of Health Plan,Member Experience,1,2367,1943,82.11,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Rating of Health Plan,Member Experience,1,2391,1952,81.65,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Rating of Health Plan,Member Experience,1,2309,1941,84.06,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Rating of Health Plan,Member Experience,1,2256,1902,84.32,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Rating of Health Plan,Member Experience,1,2221,1884,84.81,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Rating of Health Plan,Member Experience,1,2289,1976,86.31,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Rating of Health Plan,Member Experience,1,2336,2078,88.95,5
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Care Coordination,Member Experience,1,2324,1806,77.72,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Care Coordination,Member Experience,1,2505,2014,80.39,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Care Coordination,Member Experience,1,2339,1878,80.31,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Care Coordination,Member Experience,1,2423,1917,79.12,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Care Coordination,Member Experience,1,2330,1891,81.14,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Care Coordination,Member Experience,1,2364,1921,81.25,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Care Coordination,Member Experience,1,2320,1907,82.22,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Care Coordination,Member Experience,1,2312,1931,83.53,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Care Coordination,Member Experience,1,2269,1925,84.82,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Care Coordination,Member Experience,1,2354,1997,84.83,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Care Coordination,Member Experience,1,2264,1971,87.07,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Care Coordination,Member Experience,1,2370,2036,85.93,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Complaints about the Health Plan,Complaints & Access Problems,1,2724,27,1.01,2
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Complaints about the Health Plan,Complaints & Access Problems,1,2599,18,0.68,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Complaints about the Health Plan,Complaints & Access Problems,1,2806,11,0.38,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Complaints about the Health Plan,Complaints & Access Problems,1,3060,20,0.67,3
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Complaints about the Health Plan,Complaints & Access Problems,1,2890,9,0.32,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Complaints about the Health Plan,Complaints & Access Problems,1,2805,23,0.81,3
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Complaints about the Health Plan,Complaints & Access Problems,1,2892,3,0.1,5
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Complaints about the Health Plan,Complaints & Access Problems,1,2719,6,0.21,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Complaints about the Health Plan,Complaints & Access Problems,1,2827,3,0.1,5
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Complaints about the Health Plan,Complaints & Access Problems,1,2861,3,0.1,5
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Complaints about the Health Plan,Complaints & Access Problems,1,2845,24,0.83,3
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Complaints about the Health Plan,Complaints & Access Problems,1,2920,17,0.6,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4460,637,14.27,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4477,632,14.12,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4651,583,12.54,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4394,582,13.25,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4317,572,13.26,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4383,465,10.61,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4503,453,10.06,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4234,474,11.19,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4527,423,9.34,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4371,435,9.95,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4595,360,7.83,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Members Choosing to Leave the Plan,Complaints & Access Problems,1,4123,357,8.65,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3284,2767,84.26,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3454,2901,83.99,3
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3247,2776,85.49,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3226,2815,87.25,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3182,2789,87.64,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3155,2789,88.4,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3134,2800,89.33,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3169,2869,90.54,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3249,2934,90.29,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3288,3052,92.81,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3260,3054,93.69,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,3181,3002,94.36,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Reviewing Appeals Decisions,Health Plan Customer Service,1,4080,3303,80.95,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Reviewing Appeals Decisions,Health Plan Customer Service,1,4069,3315,81.48,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Reviewing Appeals Decisions,Health Plan Customer Service,1,3893,3168,81.38,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Reviewing Appeals Decisions,Health Plan Customer Service,1,3965,3242,81.78,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Reviewing Appeals Decisions,Health Plan Customer Service,1,3639,3057,84.02,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Reviewing Appeals Decisions,Health Plan Customer Service,1,3786,3205,84.64,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Reviewing Appeals Decisions,Health Plan Customer Service,1,3888,3264,83.94,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Reviewing Appeals Decisions,Health Plan Customer Service,1,3796,3282,86.47,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Reviewing Appeals Decisions,Health Plan Customer Service,1,4007,3522,87.9,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Reviewing Appeals Decisions,Health Plan Customer Service,1,4158,3650,87.78,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Reviewing Appeals Decisions,Health Plan Customer Service,1,3784,3408,90.06,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Reviewing Appeals Decisions,Health Plan Customer Service,1,3824,3421,89.46,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q1,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2814,2426,86.22,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q2,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2973,2619,88.09,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q3,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2810,2420,86.12,4
+H1234-001,Horizon Value MA Plan (H1234-001),2021Q4,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2809,2479,88.25,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q1,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2910,2634,90.52,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q2,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2929,2580,88.08,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q3,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2902,2591,89.28,4
+H1234-001,Horizon Value MA Plan (H1234-001),2022Q4,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2719,2473,90.95,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q1,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2910,2670,91.75,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q2,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2775,2606,93.91,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q3,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2884,2719,94.29,4
+H1234-001,Horizon Value MA Plan (H1234-001),2023Q4,Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,2741,2558,93.33,4

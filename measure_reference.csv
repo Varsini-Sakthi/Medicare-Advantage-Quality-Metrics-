@@ -1,0 +1,26 @@
+measure,domain,weight,direction,start_rate,end_rate
+Breast Cancer Screening,Staying Healthy,1,higher_better,62.0,78.0
+Colorectal Cancer Screening,Staying Healthy,1,higher_better,58.0,74.0
+Annual Flu Vaccine,Staying Healthy,1,higher_better,55.0,71.0
+Monitoring Physical Activity,Staying Healthy,1,higher_better,51.0,68.0
+Osteoporosis Mgmt in Women who had a Fracture,Managing Chronic Conditions,1,higher_better,44.0,58.0
+Diabetes Care - Eye Exam,Managing Chronic Conditions,1,higher_better,60.0,75.0
+Diabetes Care - Kidney Disease Monitoring,Managing Chronic Conditions,1,higher_better,88.0,94.0
+Diabetes Care - Blood Sugar Controlled (<9%),Managing Chronic Conditions,3,higher_better,68.0,82.0
+Controlling Blood Pressure,Managing Chronic Conditions,3,higher_better,62.0,80.0
+Rheumatoid Arthritis Management,Managing Chronic Conditions,1,higher_better,78.0,87.0
+Reducing the Risk of Falling,Managing Chronic Conditions,1,higher_better,49.0,63.0
+Plan All-Cause Readmissions,Managing Chronic Conditions,1,lower_better,13.5,8.2
+Statin Therapy - Cardiovascular Disease,Managing Chronic Conditions,1,higher_better,71.0,83.0
+Statin Use in Persons with Diabetes (SUPD),Managing Chronic Conditions,1,higher_better,70.0,81.0
+Getting Needed Care,Member Experience,1,higher_better,79.0,88.0
+Getting Appointments & Care Quickly,Member Experience,1,higher_better,74.0,84.0
+Customer Service,Member Experience,1,higher_better,82.0,90.0
+Rating of Health Care Quality,Member Experience,1,higher_better,80.0,89.0
+Rating of Health Plan,Member Experience,1,higher_better,77.0,87.0
+Care Coordination,Member Experience,1,higher_better,78.0,87.0
+Complaints about the Health Plan,Complaints & Access Problems,1,lower_better,0.55,0.22
+Members Choosing to Leave the Plan,Complaints & Access Problems,1,lower_better,14.0,7.5
+Plan Makes Timely Decisions about Appeals,Health Plan Customer Service,1,higher_better,85.0,94.0
+Reviewing Appeals Decisions,Health Plan Customer Service,1,higher_better,80.0,91.0
+Call Center - TTY/Interpreter Availability,Health Plan Customer Service,1,higher_better,86.0,95.0
