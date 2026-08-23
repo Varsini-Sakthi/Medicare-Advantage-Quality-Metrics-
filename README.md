@@ -20,7 +20,7 @@ This project simulates how a Medicare Advantage plan's quality analytics team tr
 
 - **25 measures** across all 5 CMS Part C Star Ratings domains
 - **CMS measure weighting** (1× standard, 3× for select outcome measures)
-- **Star cut-point banding**, converting raw measure rates into 1–5 star values
+- **Star cut-point banding**, converting raw measure rates into 1-5 star values
 - **Weighted roll-ups** at the domain and overall-plan level
 - **Quarter-over-quarter trend tracking**, the way plans monitor rolling interim rates as leading indicators ahead of the annual HEDIS submission
 
