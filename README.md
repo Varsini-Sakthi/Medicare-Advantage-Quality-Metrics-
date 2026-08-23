@@ -2,7 +2,7 @@
 
 Quarterly HEDIS measure tracking and CMS Star Ratings simulation for a Medicare Advantage plan, built to demonstrate quality-improvement analytics: measure-level rate tracking, CMS star-banding logic, weighted domain roll-ups, and QI prioritization.
 
-**Overall weighted Star Rating: 3.52 → 4.21** across 12 quarters (MY2021 Q1 – MY2023 Q4)
+**Overall weighted Star Rating: 3.52 → 4.21** across 12 quarters (MY2021 Q1 - MY2023 Q4)
 
 ## Live Dashboard
 
@@ -30,7 +30,7 @@ This project simulates how a Medicare Advantage plan's quality analytics team tr
 ├── dashboard_data.json            # Pre-aggregated data powering the HTML dashboard
 ├── hedis_measures_quarterly.csv   # Measure-level rates, 25 measures × 12 quarters
 ├── star_ratings_summary.csv       # Domain + overall weighted star ratings by quarter
-├── star_cut_points.csv            # Illustrative 1–5 star thresholds per measure
+├── star_cut_points.csv            # Illustrative 1-5 star thresholds per measure
 ├── measure_reference.csv          # Measure metadata (domain, weight, direction)
 └── README.md
 ```
@@ -63,7 +63,7 @@ python3 generate_data.py
 | `weight` | CMS measure weight, 1× standard, 3× for select outcome measures |
 | `eligible_denominator`, `numerator` | Simulated eligible population and compliant count |
 | `rate` | `numerator / denominator`, as a percentage |
-| `measure_star` | 1–5 star value derived from `rate` via `star_cut_points.csv` |
+| `measure_star` | 1-5 star value derived from `rate` via `star_cut_points.csv` |
 
 ## Building the Tableau Version
 
