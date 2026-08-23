@@ -2,7 +2,7 @@
 
 Quarterly HEDIS measure tracking and CMS Star Ratings simulation for a Medicare Advantage plan, built to demonstrate quality-improvement analytics: measure-level rate tracking, CMS star-banding logic, weighted domain roll-ups, and QI prioritization.
 
-**Overall weighted Star Rating: 3.52★ → 4.21★** across 12 quarters (MY2021 Q1 – MY2023 Q4)
+**Overall weighted Star Rating: 3.52 → 4.21** across 12 quarters (MY2021 Q1 – MY2023 Q4)
 
 ---
 
